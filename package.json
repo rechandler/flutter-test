@@ -1,0 +1,28 @@
+{
+  "name": "cooking_app",
+  "version": "1.0.0",
+  "description": "An App to help cooking and prepping",
+  "main": "server/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.0",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.0",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.4.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
