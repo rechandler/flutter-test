@@ -4,7 +4,6 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'dart:convert';
 
 class Client {
-  static final Client _client = new Client._internal();
   final _path = DotEnv().env['graphql'];
 
   Dio _dio = new Dio( new BaseOptions(
@@ -14,8 +13,6 @@ class Client {
   factory Client() {
     return _client;
   }
-
-  Client._internal();
 
   // Use DIO's build in cookie manager
   // Cookie jar will store in memorey
